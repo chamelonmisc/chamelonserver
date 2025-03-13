@@ -68,3 +68,11 @@
 [05:12:56] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
 [05:12:56] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
 [05:12:57] [Netty Boss IO Thread #1/INFO]: Listening on /127.0.0.1:25577
+[05:17:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56662]: Connected via websocket
+[05:17:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56662]: Origin header is null
+[05:17:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56662]: Logged in as 'Chamelon'
+[05:17:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56662|Chamelon] -> UpstreamBridge has connected
+[05:17:06] [Netty Worker IO Thread #0/INFO]: [Chamelon|/[0:0:0:0:0:0:0:1%0]:56662] <-> ServerConnector [lobby] has connected
+[05:17:07] [Netty Worker IO Thread #0/INFO]: [Chamelon] disconnected with: Kicked whilst connecting to lobby: Outdated server! I'm still on 1.8.8
+[05:17:07] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56662|Chamelon] -> UpstreamBridge has disconnected
+[05:17:07] [Netty Worker IO Thread #0/INFO]: [Chamelon|/[0:0:0:0:0:0:0:1%0]:56662] <-> ServerConnector [lobby] has disconnected
