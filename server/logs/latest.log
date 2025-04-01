@@ -138,3 +138,27 @@
 [22:50:46] [Craft Scheduler Thread - 1/INFO]: [SimpleTpa] There is a new update available:
 [22:50:46] [Craft Scheduler Thread - 1/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
 [22:51:07] [Server thread/INFO]: Opped chamelon
+[22:54:22] [User Authenticator #1/INFO]: UUID of player Chamelon is 46b04cfd-e407-3ada-ace9-5915ab87cc1f
+[22:54:22] [Server thread/INFO]: Chamelon[/[0:0:0:0:0:0:0:1]:54818] logged in with entity id 69 at ([world]192.71744607594476, 67.0, 244.49793126667618)
+[22:55:11] [Server thread/INFO]: Chamelon issued server command: /gamemode c
+[22:55:11] [Server thread/INFO]: [Chamelon: Set own game mode to Creative Mode]
+[22:55:15] [Server thread/INFO]: Chamelon issued server command: /lac update
+[22:55:15] [Craft Scheduler Thread - 7/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
+[22:55:15] [Craft Scheduler Thread - 7/INFO]: [LoginSecurity] Download complete!
+[23:00:39] [Server thread/INFO]: Chamelon has reached the goal [Sky's the Limit]
+[23:03:08] [Server thread/INFO]: Chamelon issued server command: /gamemode s
+[23:03:08] [Server thread/INFO]: [Chamelon: Set own game mode to Survival Mode]
+[23:06:22] [Server thread/INFO]: Chamelon issued server command: /summon iron_golem
+[23:06:22] [Server thread/WARN]: Skipping Entity with id minecraft:iron_golem
+[23:06:22] [Server thread/INFO]: [Chamelon: Unable to summon object]
+[23:06:29] [Server thread/INFO]: Chamelon issued server command: /summon villager
+[23:06:29] [Server thread/INFO]: [Chamelon: Object successfully summoned]
+[23:06:49] [Server thread/INFO]: Chamelon issued server command: /summon tnt
+[23:06:49] [Server thread/INFO]: [Chamelon: Object successfully summoned]
+[23:06:49] [Server thread/INFO]: Chamelon blew up
+[23:06:55] [Server thread/INFO]: Chamelon issued server command: /back
+[23:07:45] [Server thread/INFO]: Chamelon issued server command: /gamemode c
+[23:07:45] [Server thread/INFO]: [Chamelon: Set own game mode to Creative Mode]
+[23:11:45] [Server thread/INFO]: Chamelon has made the advancement [Monster Hunter]
+[23:14:57] [Server thread/INFO]: Chamelon lost connection: Disconnected
+[23:14:57] [Server thread/INFO]: Chamelon left the game
