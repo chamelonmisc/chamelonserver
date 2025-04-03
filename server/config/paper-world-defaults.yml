@@ -1,0 +1,159 @@
+_version: 28
+allow-block-location-tab-completion: true
+allow-leashing-undead-horse: false
+allow-undead-horse-leashing: false
+anticheat:
+  anti-xray:
+    chunk-edge-mode: 1
+    enabled: false
+    engine-mode: 1
+    hidden-blocks:
+    - gold_ore
+    - iron_ore
+    - coal_ore
+    - lapis_ore
+    - mossy_cobblestone
+    - obsidian
+    - chest
+    - diamond_ore
+    - redstone_ore
+    - lit_redstone_ore
+    - clay
+    - emerald_ore
+    - ender_chest
+    max-chunk-section-index: 3
+    replacement-blocks:
+    - stone
+    - oak_planks
+    update-radius: 2
+bed-search-radius: 1
+cache-chunk-maps: false
+chunks:
+  auto-save-interval: -1
+  delay-chunk-unloads-by: 10s
+  fixed-chunk-inhabited-time: -1
+  max-auto-save-chunks-per-tick: 24
+  prevent-moving-into-unloaded-chunks: false
+collisions:
+  max-entity-collisions: 8
+disable-mood-sounds: false
+elytra-hit-wall-damage: true
+enable-old-tnt-cannon-behaviors: false
+entities:
+  armor-stands:
+    do-collision-entity-lookups: true
+    tick: true
+  behavior:
+    baby-zombie-movement-modifier: 0.5
+    disable-chest-cat-detection: false
+    disable-creeper-lingering-effect: false
+    disable-player-crits: false
+    experience-merge-max-value: -1
+    parrots-are-unaffected-by-player-movement: false
+    spawner-nerfed-mobs-should-jump: false
+  spawning:
+    all-chunks-are-slime-chunks: false
+    despawn-ranges: {}
+    duplicate-uuid:
+      mode: SAFE_REGEN
+      safe-regen-delete-range: 32
+    filter-nbt-data-from-spawn-eggs-and-related: true
+    non-player-arrow-despawn-rate: -1
+    scan-for-legacy-ender-dragon: true
+    skeleton-horse-thunder-spawn-chance: 0.01
+environment:
+  disable-explosion-knockback: false
+  disable-ice-and-snow: false
+  disable-teleportation-suffocation-check: false
+  disable-thunder: false
+  frosted-ice:
+    delay:
+      max: 40
+      min: 20
+    enabled: true
+  generate-flat-bedrock: false
+  nether-ceiling-void-damage-height: 0
+  optimize-explosions: false
+  portal-search-radius: 128
+  treasure-maps:
+    enabled: true
+    find-already-discovered:
+      loot-tables: false
+      villager-trade: false
+  water-over-lava-flow-speed: 5
+falling-blocks-collide-with-signs: false
+fast-drain:
+  lava: false
+  water: false
+fire-physics-event-for-redstone: false
+fishing-time-range:
+  maximum: 900
+  minimum: 100
+fix-cannons: false
+fixes:
+  disable-unloaded-chunk-enderpearl-exploit: true
+  falling-block-height-nerf: 0
+  prevent-tnt-from-moving-in-water: false
+  remove-corrupt-tile-entities: false
+  tnt-entity-height-nerf: 0
+hopper:
+  cooldown-when-full: true
+  disable-move-event: false
+  push-based: false
+lava-flow-speed:
+  nether: 10
+  normal: 30
+load-chunks:
+  enderpearls: false
+  falling-blocks: false
+  tnt-entities: false
+lootables:
+  auto-replenish: false
+  max-refills: -1
+  refresh-max: 2d
+  refresh-min: 12h
+  reset-seed-on-fill: true
+  restrict-player-reloot: true
+max-chunk-gens-per-tick: 10
+max-chunk-sends-per-tick: 81
+max-growth-height:
+  cactus: 3
+  reeds: 3
+misc:
+  allow-permanent-chunk-loaders: false
+  boats-drop-boats: false
+  disable-end-credits: false
+  disable-sprint-interruption-on-attack: false
+  shield-blocking-delay: 5
+  village-sieges-enabled: true
+player-blocking-damage-multiplier: 0.5
+player-exhaustion:
+  block-break: 0.02500000037252903
+  swimming: 0.014999999664723873
+queue-light-updates: false
+remove-invalid-mob-spawner-tile-entities: true
+remove-unloaded:
+  enderpearls: true
+  falling-blocks: true
+  tnt-entities: true
+save-queue-limit-for-auto-save: 50
+scoreboards:
+  allow-non-player-entities-on-scoreboards: false
+  use-vanilla-world-scoreboard-name-coloring: false
+skip-entity-ticking-in-chunks-scheduled-for-unload: true
+spawn:
+  keep-spawn-loaded: true
+  keep-spawn-loaded-range: 4
+squid-spawn-height:
+  maximum: 63.0
+  minimum: 45.0
+tick-next-tick-list-cap: 10000
+tick-next-tick-list-cap-ignores-redstone: false
+tick-rates:
+  container-update: 1
+  grass-spread: 1
+  mob-spawner: 1
+tnt-explosion-volume: 4.0
+use-alternate-fallingblock-onGround-detection: false
+use-async-lighting: false
+use-hopper-check: false
